@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin:0;
+
+    }
+    .navbar{
+        height: 160px;
+        width: 100%;
+        background: rgba(56, 53, 53, 0.4);
+
+    }
+    .navbar ul{
+        float: right;
+        margin-right: 20px;
+    }
+
+    .navbar ul li{
+        list-style: none;
+        margin: 0 8px;
+        display: inline-block;
+        line-height: 70px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .navbar ul li a.active,
+    .navbar ul li a:hover{
+        background: rgb(14, 12, 12);
+        border-radius: 3px;
+    }
+
+}
+
+body {
+    margin: 5px;
+    padding: 5px;
+    height: 100vh;
+}
+
+.container {
+    margin: 20;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.box1 {
+    background-color:white;
+    max-width: 1024px;
+    height: 600px;
+    margin: 10px;
+    position: relative;
+    flex: 1;
+}
+
+.box3{
+    background-color:white;
+    max-width: 1024px;
+    height: 600px;
+    margin: 10px;
+    position: relative;
+    flex: 1;
+
+}
+
+}
+    
+@media (max-width: 1024px) {
+
+.box1 {
+    flex: 100%;
+    max-width: 760px;
+}
+.box3 {
+    flex: 100%;
+    max-width: 760px;
+}
+.box4 {
+    flex: 100%;
+    max-width: 375px;
+}
+}
+
+p {
+font-size: 14;
+font-family: Arial;
+letter-spacing: normal;
+text-align: justify;
+padding: 16px;
+}
+
+h2 {
+font-size: 20;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+}
